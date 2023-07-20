@@ -116,7 +116,7 @@ body {
 
 .card-container {
 
-    top: 72%;
+    top: 60%;
     width: 100%;
     position: absolute;
     padding-top: 0px;
@@ -131,7 +131,7 @@ body {
     justify-content: center;
     gap: 2.5rem;
     width: 90%;
-    max-width: 1000px;
+    
     /*margin: 10vh auto;*/
     margin-top: 0;
 	margin-right: auto;
@@ -144,13 +144,14 @@ body {
 	background: #fff;
     border-radius: 16px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    max-width: 300px;
+    /*max-width: 300px;*/
 }
 
 .information {
 	background: #fff;
     background-color: var(--c-white);
     padding: 1.5rem;
+    width:45vw;
 }
 
 .information .tag {
@@ -168,7 +169,7 @@ body {
 }
 
 .information .title {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
     color: #626262;
     line-height: 1.25;
     & + * {
@@ -211,7 +212,6 @@ body {
 
 .card .title {
     font-weight: 600;
-    font-size: 1.25rem;
     color: #626262;;
     & + * {
         margin-top: .75rem;
@@ -220,7 +220,7 @@ body {
 
 .card .title2 {
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 2rem;
     color: #fff;
     & + * {
         margin-top: .75rem;
@@ -243,4 +243,8 @@ body {
 
 .tarjeta1 {
 	background: #ffb230;
+}
+
+.info {
+	font-size: 2rem;
 }
