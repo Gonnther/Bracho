@@ -1,0 +1,52 @@
+body {
+  --text-color: #222;
+  --text-color2:#4c4c4c;
+  --bkg-color: #fff;
+}
+body.dark-theme {
+  --text-color: #eee;
+  --bkg-color: #1c1c1c;
+}
+
+
+
+
+#header {
+  background: var(--bkg-color);
+}
+
+body {
+  background: var(--bkg-color);
+}
+
+nav ul li a {
+	color: var(--text-color);
+}
+.pricing-container {
+	background: var(--bkg-color);
+}
+
+.content {
+	background: var(--bkg-color);
+}
+
+.pricing-title1 {
+	color: var(--text-color);
+}
+
+#header .menu-icon .nav-icon,
+#header .menu-icon .nav-icon:before,
+#header .menu-icon .nav-icon:after {
+	background:var(--text-color);
+}
+.pdark1 {
+	color:var(--text-color);
+}
+.pdark2 {
+	color:var(--text-color2);
+}
+/*h1,
+p {
+  color: var(--text-color);
+}
+*/
