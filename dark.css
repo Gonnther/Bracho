@@ -45,6 +45,9 @@ nav ul li a {
 .pdark2 {
 	color:var(--text-color2);
 }
+.span2:after {
+	background-color:var(--text-color);
+}
 /*h1,
 p {
   color: var(--text-color);
