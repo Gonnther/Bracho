@@ -2,6 +2,9 @@
 <html>
 <head>
   <title>BRACHO</title>
+<!--   <meta http-equiv="Content-Security-Policy" content="script-src 'strict-dynamic' 'report-sample' embed;"> -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'strict-dynamic' 'report-sample' embed;">
+
   <link rel="stylesheet" type="text/css" href="card.css">
   <link rel="stylesheet" type="text/css" href="wp.css">
   <link rel="stylesheet" type="text/css" href="servcard.css">
@@ -55,7 +58,7 @@
 <div class=" parallax">
   <div class="content">
 
-    <div class="parallax-image" style="background: url(ttp://drive.google.com/uc?export=view&id=1ktF65HnsnQxLC-cmycC_2QkdJs2KPr-a) fixed;display: none;background-position: center;
+    <div class="parallax-image" style="background: url(http://drive.google.com/uc?export=view&id=1ktF65HnsnQxLC-cmycC_2QkdJs2KPr-a) fixed;display: none;background-position: center;
       background-repeat: round;
       background-size: cover;">
         <div class="overlay"></div>
@@ -152,7 +155,7 @@
   </div>
   <div class="card2">
     <div class="overlay2">
-    <img class="img2" src="soldadura1.jpg" alt="">
+    <img class="img2" src="http://drive.google.com/uc?export=view&id=1YnD6-INCnvYKXU6Ixg5c9GtK1oZyxeX9" alt="">
     <div class="card-content2">
       <h2 class="h22">
         SOLDADURA
@@ -414,7 +417,7 @@ var intervalo = setInterval(changeImage, 5000);
 // Función para reiniciar el intervalo
 function reiniciarIntervalo() {
   clearInterval(intervalo); // Detener el intervalo actual
-  intervalo = setInterval(miFuncion, 5000); // Iniciar un nuevo intervalo
+  intervalo = setInterval(changeImage, 5000); // Iniciar un nuevo intervalo
 }
 
 
