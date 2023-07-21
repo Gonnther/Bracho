@@ -152,7 +152,6 @@ main {
 }
 .bras {
   text-align: center;
-  margin-top: 50px;
 }
 
 .bras-title-primary1 {
@@ -595,7 +594,7 @@ input[type="email"] {
   }
 }
 
-@media screen and (min-width: 1570px) {
+@media screen and (min-width: 1366px) {
   .container {
     max-width: 80vw;
   }
@@ -1048,9 +1047,11 @@ input[type="email"] {
 .parallax-text {
   position: relative;
   /*margin-left: 163px;*/
-  margin-top: 144px
+  margin-top: 15vh;
 }
-
+.enc {
+  margin-top: 0px !important;
+}
 .bras-title-sub {
   margin: 0.2em 0 1em 0;
   font-family: "Poppins", sans-serif;
