@@ -581,6 +581,8 @@ input[type="email"] {
 }
 .information .title {
     font-size: 3.3rem;
+}
+.information .title {
     width: 75vw;
 }
 @keyframes move-forever {
