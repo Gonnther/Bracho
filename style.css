@@ -577,13 +577,14 @@ input[type="email"] {
   font-size: 3rem;
 }
 .card-container {
+  top: 44%;
   z-index: 6
 }
 .information .title {
     font-size: 3.3rem;
 }
 .information {
-    width: 75vw;
+    width: 74vw;
 }
 @keyframes move-forever {
   0% {
