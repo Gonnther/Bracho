@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>BRACHO</title>
+<!--   <meta http-equiv="Content-Security-Policy" content="script-src 'strict-dynamic' 'report-sample' embed;"> -->
 
   <link rel="stylesheet" type="text/css" href="card.css">
   <link rel="stylesheet" type="text/css" href="wp.css">
@@ -24,8 +25,16 @@
 
   <!--   navbar -->
   <nav id="nav-bar">
-    <input class="menu-btn" type="checkbox" id="menu-btn">
-    <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+<!--     <input class="menu-btn" type="checkbox" id="menu-btn">
+    <label class="menu-icon" for="menu-btn">
+      <span class="nav-icon"></span>
+    </label> -->
+    <input class="menu-btn" type="checkbox" id="menu-btn2">
+    <label class="menu-icon2" for="menu-btn2">
+      <span class="span2 span21"></span>
+      <span class="span2 span22"></span>
+      <span class="span2 span23"></span>
+    </label>
     <ul class="menu">
       <li><a href="#" class="nav-link">Inicio</a></li>
       <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
@@ -120,9 +129,10 @@
 <!-- cards -->
 
 
-<main class="containermain">
-<div></div>
-</main>
+<section class="containermain">
+<div class="barwhite"></div>
+<div class="barwhite"></div>
+</section>
 
 <!-- servicios -->
 
@@ -505,6 +515,29 @@ btn.addEventListener("click", function () {
 
 </script>
 <!-- dark mode -->
+
+<!-- ocultar flechas -->
+<!-- <script type="text/javascript">
+  var totalHeight = document.body.scrollHeight - window.innerHeight;
+var prevScrollpos = window.pageYOffset;
+window.addEventListener('scroll', function() {
+  var currentScrollPos = window.pageYOffset;
+  var scrollPercent = (currentScrollPos / totalHeight) * 100;
+  console.log('El usuario ha desplazado ' + scrollPercent.toFixed(2) + '% hacia abajo');
+  prevScrollpos = currentScrollPos;
+});
+</script> -->
+<script type="text/javascript">
+  var initialHeight = document.documentElement.clientHeight;
+var prevScrollpos = window.pageYOffset;
+window.addEventListener('scroll', function() {
+  var currentScrollPos = window.pageYOffset;
+  var scrollPercent = (currentScrollPos / initialHeight) * 100;
+  console.log('El usuario ha desplazado ' + scrollPercent.toFixed(2) + '% hacia abajo');
+  prevScrollpos = currentScrollPos;
+});
+</script>
+<!-- ocultar flechas -->
 
 <!-- footer -->
 
