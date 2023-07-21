@@ -579,7 +579,10 @@ input[type="email"] {
 .card-container {
   z-index: 6
 }
-
+.information .title {
+    font-size: 3.3rem;
+    width: 75vw;
+}
 @keyframes move-forever {
   0% {
     transform: translate3d(-90px, 0, 0);
